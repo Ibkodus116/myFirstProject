@@ -1,0 +1,89 @@
+html {
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: repeat-x;
+    background-color: rgb(224, 232, 255);
+    font-family: 'Titillium Web', sans-serif !important;
+}
+
+p {
+    font-size: 16px;
+}
+#hero-img{
+    border-radius: 20px 20px 0 0;
+    width: 350px;
+}
+.container {
+    text-align: center;
+    width: 350px;
+    margin: 0 auto;
+    height: 480px;
+    background-color:white;
+    border-radius: 20px;
+    padding-bottom: 100px;
+    box-shadow: 8px 8px 15px grey ;
+}
+.intro{
+    opacity: 60%;
+}
+.main{
+    width: 300px;
+    margin: 0 auto;
+    /* background: red; */
+}
+
+.music{
+    width: 280px;
+    margin: 0 auto;
+    background:rgba(214, 225, 255, 0.3);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    /* opacity: 70%; */
+}
+
+#icon{
+    margin: 10px;
+}
+.change-plan{
+    margin-left: 50px;
+    /* border: 2px solid red; */
+
+}
+
+.cash{
+    opacity: 70%;
+    font-family: 'Noto Sans JP', sans-serif;
+    /* font-weight: 100; */
+    }
+
+.plan{
+    line-height: 1.6;
+}
+
+.pay-btn{
+    padding: 15px 78px;
+    margin: 30px auto;
+    background-color: blue;
+    color: white;
+    border: 0;
+    border-radius: 10px;
+    font-weight: bold;
+    box-shadow: 10px 10px 20px rgba(40, 40, 134, 0.315);
+}
+
+.cancel{
+    opacity: 60%;
+}
+
+a:hover{
+    color:blue;
+    text-decoration: none;
+}
+.cancel:hover{
+    opacity: 100%;
+    cursor: pointer;
+}
+.pay-btn:hover{
+    background-color:rgba(46, 46, 170, 0.774);
+    cursor: pointer;
+}
